@@ -1,0 +1,7 @@
+.dash-bg-body {
+  display: flex;
+  flex-flow: no wrap;
+  float: left;
+  position: relative;
+  background: #D6ED17FF;
+}
