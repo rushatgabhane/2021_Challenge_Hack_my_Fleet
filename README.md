@@ -7,7 +7,7 @@
 Identify excessive fuel consumption in your fleet and optimize accordingly. Green Fleet is helping fleet managers save money and the environment.
 
 ## Built with
-Plotly Dash, pandas, jupyter notebook. 
+Plotly Dash, pandas, jupyter notebook, digitalocean spaces.
 ## Created by
 - Eyasu Woldu
 - Gabriel Wozniak
