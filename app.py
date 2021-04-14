@@ -16,7 +16,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 print(os.listdir())
-df = pd.read_csv('../sample_data/by_month_cluster_200.csv')
+df = pd.read_csv('sample_data/by_month_cluster_200.csv')
 
 colors = {'yellow': '#FFCD05', 'dark-gray': '#231F20', 'white': '#FFFFFF', 'light-gray': '#d3d3d3'}
 
