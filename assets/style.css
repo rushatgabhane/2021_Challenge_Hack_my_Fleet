@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.para {
+    font-family: 'Poppins', sans-serif;
+}
+.heading {
+    font-family: 'Poppins', sans-serif;
+}
+
+.padding-l-20{
+    padding-left: 20px;
+}
+
+#hero {
+    display: flex;
+}
+
+#charts {
+    justify-content: space-around;
+    background-color: #231F20;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#side-bar{
+    background-color: #FFCD05;
+    /* border-color: red;
+    border-style: solid;
+    border-width: 5px; */
+    flex: 0.2;
+    min-height: 100vh;
+}
+
+#table1 {
+    max-width: 100%;
+    /* align-items: center; */
+}
+
+#scatter-graph1 {
+    max-width: 100%;
+    width: 1000px;
+}
+
+#logo {
+    max-width: 100px;
+    padding: 20px;
+}
+
+.app-header {
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#control-panel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.toggle {
+    padding: 10px;
+}
+
+#css-low-fuel{
+    padding-top: 20px;
+}
